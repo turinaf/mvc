@@ -1,1 +1,2 @@
-Hello
+<?php
+ require_once '../app/require.php';
