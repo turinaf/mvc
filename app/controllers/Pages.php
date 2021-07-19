@@ -12,6 +12,7 @@ class Pages extends Controller{
             'title' => 'Home page', 
             'users' => $users
         ];
+        # call the view with the data
         $this->view('pages/index', $data);
     }
 
